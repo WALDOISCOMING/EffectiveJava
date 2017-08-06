@@ -1,0 +1,4 @@
+항목8:equals 메소드를 재정의하면 hashCode메소드도 반드시 재정의 하라.
+hashcode를 재정의하지 않으면많으 버그가 생긴다. 이건 기본 java표준 구현 계약에도 명시되어있어다.
+그 이유는 주로 equals는 hashcode를 비교하는 방법론으로써 원래는 hashcode가 같아야지 true가 되는
+구조이다.
