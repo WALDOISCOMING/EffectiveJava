@@ -1,0 +1,2 @@
+항목21:enum 구문은 클래스로 바꿔라
+enum->public static final로 변환
